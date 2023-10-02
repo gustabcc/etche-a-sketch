@@ -1,14 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Playfair+Display&family=Press+Start+2P&display=swap');
+
 body {
     height: 100vh;
     overflow-y: hidden;
     background-color: #F55;
 }
 
+h1 {
+    text-align: center;
+    font-family: "Press Start 2P";
+
+}
+
 .grid-container {
     display: grid;
     width: 500px;
     height: 500px;
-    margin: 240px auto;
+    margin: 150px auto;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
     border: 20px solid #000;
@@ -30,10 +38,12 @@ body {
     border: transparent;
     border: 1px solid #000;
     border-radius: 5px;
+    font-family: "Press Start 2P";
     cursor: pointer;
 }
 
 #reset-btn:hover {
     background-color: #FB1;
+    font-family: "Press Start 2P";
     transition: .3s;
 }
